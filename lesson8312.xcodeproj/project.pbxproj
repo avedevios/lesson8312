@@ -13,6 +13,7 @@
 		6D05C51829043305001090DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D05C51629043305001090DC /* Main.storyboard */; };
 		6D05C51A29043309001090DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D05C51929043309001090DC /* Assets.xcassets */; };
 		6D05C51D29043309001090DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D05C51B29043309001090DC /* LaunchScreen.storyboard */; };
+		6D05C52529043B42001090DC /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D05C52429043B42001090DC /* NoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D05C51929043309001090DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D05C51C29043309001090DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D05C51E29043309001090DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D05C52429043B42001090DC /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6D05C50F29043305001090DC /* lesson8312 */ = {
 			isa = PBXGroup;
 			children = (
+				6D05C52429043B42001090DC /* NoteModel.swift */,
 				6D05C51029043305001090DC /* AppDelegate.swift */,
 				6D05C51229043305001090DC /* SceneDelegate.swift */,
 				6D05C51429043305001090DC /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D05C51529043305001090DC /* ViewController.swift in Sources */,
+				6D05C52529043B42001090DC /* NoteModel.swift in Sources */,
 				6D05C51129043305001090DC /* AppDelegate.swift in Sources */,
 				6D05C51329043305001090DC /* SceneDelegate.swift in Sources */,
 			);
